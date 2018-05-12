@@ -52,10 +52,6 @@ export default class SponsorsLayout extends React.Component {
                 <NavigationMenu/>
 
                 <Grid columns={5} padded doubling centered>
-                    <Grid.Column verticalAlign='middle'><Image centered height={200} src='/../images/qindeel2.png' alt='sponsor'/></Grid.Column>
-                    <Grid.Column verticalAlign='middle'><Image centered height={200} src='/../images/qindeel-educational.png' alt='sponsor'/></Grid.Column>
-                    <Grid.Column verticalAlign='middle'><Image centered height={200} src='/../images/qindeel-bookshop.png' alt='sponsor'/></Grid.Column>
-                    <Grid.Column verticalAlign='middle'><Image centered height={200} src='/../images/qindeel-distribution.png' alt='sponsor'/></Grid.Column>
                 </Grid>
 
                 <div style={bigSponsorStyle}>
