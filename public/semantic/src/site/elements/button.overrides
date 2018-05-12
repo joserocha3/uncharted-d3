@@ -1,0 +1,13 @@
+/*******************************
+         Site Overrides
+*******************************/
+
+.ui.active.button.white {
+    background-color: white;
+    color: #00adc6;
+}
+
+.ui.active.button.white:hover {
+    background-color: #f5f5f5;
+    color: #00adc6;
+}

@@ -1,0 +1,56 @@
+/*-------------------------------------------------------------------------*
+ * Object name:   popup.overrides
+ * Created by:    Pablo Rocha
+ * Creation date: ???
+ * Description:   Override semantic-UI popup CSS
+ *-------------------------------------------------------------------------
+ * Modification history:
+ * Branch  Issue  Date        Developer    Description of change
+ * master  #33.1  07/01/2017  Pablo Rocha  - Move steps 1 and 2 down to accommodate for index type selector
+ *-------------------------------------------------------------------------*/
+
+/*******************************
+        User Overrides
+*******************************/
+
+.ui.popup {
+    border: solid 1px #00adc6;
+}
+
+#step-1 {
+    position: fixed;
+    top: 265px;
+    left: 250px;
+    z-index: -1;
+}
+
+#step-2 {
+    position: fixed;
+    top: 312px;
+    left: 250px;
+    z-index: -1;
+}
+
+#step-3 {
+    position: fixed;
+    top: 120px;
+    left: 41%;
+    z-index: -1;
+}
+
+#step-1:before, #step-2:before {
+    transform: rotate(135deg) translate(16px, 11px);
+    border-right: 0;
+    border-bottom: solid 1px #00adc6;
+    border-right: solid 1px #00adc6;
+    box-shadow: none;
+}
+
+#step-3:before {
+    -webkit-transform: rotate(225deg) translate(-66px, 91px);
+    transform: rotate(225deg) translate(-66px, 91px);
+    border-right: 0;
+    border-bottom: solid 1px #00adc6;
+    border-right: solid 1px #00adc6;
+    box-shadow: none;
+}

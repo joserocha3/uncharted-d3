@@ -1,0 +1,40 @@
+/*-------------------------------------------------------------------------*
+ * Object name:   checkbox.overrides
+ * Created by:    Pablo Rocha
+ * Creation date: 07/12/2017
+ * Description:   Override semantic-ui checkbox values with our site's.
+ *
+ *                Toggle: The main differences are that 1.) we want to color the
+ *                handle our primary color instead of the default grey and 2.) we
+ *                want to color the switch grey instead of the default primary color.
+ *-------------------------------------------------------------------------*
+ * Modification history:
+ * Branch  Issue  Date        Developer    Description of change
+ * master  #16    07/12/2017  Pablo Rocha  - Set toggle overrides
+ *-------------------------------------------------------------------------*/
+
+/*******************************
+         Site Overrides
+*******************************/
+
+/*--------------
+     Toggle
+---------------*/
+
+/* Handle */
+.ui.toggle.checkbox .box:after,
+.ui.toggle.checkbox label:after {
+  background: @primaryColor linear-gradient(transparent, rgba(0, 0, 0, .05)); // instead of grey/@handleBackground
+}
+
+/* Active */
+.ui.toggle.checkbox input:checked ~ .box:before,
+.ui.toggle.checkbox input:checked ~ label:before {
+  background-color: rgba(0, 0, 0, .05) !important; // instead of @primaryColor
+}
+
+/* Hover */
+.ui.toggle.checkbox input:checked ~ .box:hover::before,
+.ui.toggle.checkbox input:checked ~ label:hover::before {
+  background-color: rgba(0, 0, 0, .15) !important; // this had no hover effect
+}

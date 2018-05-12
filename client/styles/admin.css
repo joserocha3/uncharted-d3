@@ -1,0 +1,29 @@
+#admin-layout {
+    height: 100%
+}
+
+#admin-menu {
+    background-color: #363a44;
+    height: calc(100% - 50px);
+    margin-top: 50px;
+}
+
+#admin-form {
+    margin: 50px 0 0 210px;
+    padding: 50px;
+}
+
+.admin-table {
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+    border: 1px solid #d4d4d5;
+    border-top: none;
+    border-radius: 0 0 .28571429rem .28571429rem;
+}
+
+/* Fix semantic UI pointing menu, not the correct color when active */
+
+#admin-menu .item:after {
+    background: #545760 !important;
+}

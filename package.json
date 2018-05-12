@@ -1,0 +1,59 @@
+{
+  "name": "uncharted",
+  "version": "1.1.2",
+  "private": true,
+  "description": "United Nations visualizations for Arab Knowledge indexes",
+  "main": "main.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://joserocha3@github.com/joserocha3/uncharted.git"
+  },
+  "author": "joserocha3",
+  "bugs": {
+    "url": "https://github.com/joserocha3/uncharted/issues"
+  },
+  "homepage": "https://github.com/joserocha3/uncharted#readme",
+  "scripts": {
+    "start": "MONGO_URL=mongodb://pablo:pablo@ds157248.mlab.com:57248/uncharted-dev ROOT_URL=http://localhost:3030 meteor run --settings 'settings-development.json' --port 3030",
+    "staging": "MONGO_URL=mongodb://pablo:pablo@ds157248.mlab.com:57248/uncharted-staging ROOT_URL=http://localhost:3030 meteor run --settings 'settings-staging.json' --port 3030",
+    "deploy": "meteor deploy --settings 'settings-production.json' data.arabknowledgeportal.org"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.70.0",
+    "babel-runtime": "^6.23.0",
+    "d3": "^4.9.1",
+    "gsap": "^1.19.1",
+    "i18next": "^4.2.0",
+    "indexof": "0.0.1",
+    "jsx-to-string": "^1.1.0",
+    "lodash": "^4.17.4",
+    "meteor-node-stubs": "^0.2.11",
+    "mobx": "^3.1.15",
+    "mobx-react": "^4.2.1",
+    "moment": "^2.18.0",
+    "prop-types": "^15.5.10",
+    "rc-slider": "^5.4.3",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-addons-pure-render-mixin": "^15.6.0",
+    "react-addons-transition-group": "^15.6.0",
+    "react-color": "^2.12.1",
+    "react-dom": "^15.6.1",
+    "react-dropzone": "^3.13.2",
+    "react-measure": "^1.4.7",
+    "react-mounter": "^1.2.0",
+    "react-s-alert": "^1.3.0",
+    "save-svg-as-png": "^1.2.0",
+    "semantic-ui": "^2.2.11",
+    "semantic-ui-react": "^0.66.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-meteor": "6.23.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "mobx-react-devtools": "^4.2.12"
+  }
+}

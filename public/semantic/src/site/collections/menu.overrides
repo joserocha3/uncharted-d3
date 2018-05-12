@@ -1,0 +1,101 @@
+/*-------------------------------------------------------------------------*
+ * Object name:   menu.overrides
+ * Created by:    Pablo Rocha
+ * Creation date: ???
+ * Description:   Overrides semantic UI menu styles
+ *-------------------------------------------------------------------------
+ * Modification history:
+ * Branch  Issue  Date        Developer    Description of change
+ * master  #14.1  06/13/2017  Pablo Rocha  - Rename reset-button-menu-item to chart-menu-auxiliary-buttons
+ *                                         - Add presentation-mode class rules
+ * master  #32.1  06/29/2017  Pablo Rocha  - Increase transition timing
+ *-------------------------------------------------------------------------*/
+
+/*******************************
+         Site Overrides
+*******************************/
+
+#navigation-menu {
+    height: 50px;
+    background-color: #525866;
+}
+
+#chart-menu {
+    top: 50px;
+}
+
+#chart-menu-auxiliary-buttons {
+    position: fixed;
+    right: 0;
+}
+
+#index-menu {
+    width: 240px;
+    padding-top: 110px;
+    z-index: 1;
+    overflow-y: auto;
+    right: 0;
+    -webkit-transition: left 400ms, right 400ms;
+    -moz-transition: left 400ms, right 400ms;
+    -o-transition: left 400ms, right 400ms;
+    transition: left 400ms, right 400ms;
+}
+
+#index-menu.presentation-mode {
+    left: -240px;
+}
+
+#legends-menu {
+    width: 240px;
+    padding-top: 110px;
+    z-index: 1;
+    overflow-y: auto;
+    right: 0;
+    -webkit-transition: left 400ms, right 400ms;
+    -moz-transition: left 400ms, right 400ms;
+    -o-transition: left 400ms, right 400ms;
+    transition: left 400ms, right 400ms;
+}
+
+#legends-menu.presentation-mode {
+    right: -240px;
+}
+
+#profile-selection-menu {
+    width: 240px;
+    padding-top: 50px;
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.ui.menu {
+    font-size: 1rem;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #f9f9f9;
+    border: none;
+    margin: 0;
+}
+
+.ui.menu .item > i.icon {
+    margin: 0;
+}
+
+/* Set the color for active items */
+
+.ui.vertical.menu .active.item {
+    color: #00adc6;
+}
+
+.ui.vertical.menu .active.item:hover {
+    color: #00adc6;
+}
+
+.ui.menu.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.ui.menu.centered > div {
+    flex: 0 0 auto;
+}

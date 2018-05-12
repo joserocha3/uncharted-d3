@@ -1,0 +1,72 @@
+/*******************************
+        User Overrides
+*******************************/
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui):last-child {
+    padding-bottom: 1em;
+}
+
+.ui.accordion:not(.styled) .title ~ .content:not(.ui), .ui.accordion:not(.styled) .accordion .title ~ .content:not(.ui) {
+    padding: 0.5em 1em 1em;
+}
+
+#indicators-sidebar .title {
+    padding: 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#indicators-sidebar .content-pillar {
+    padding: 0 0 0 40px;
+}
+
+#indicators-sidebar .content-subpillar {
+    padding: 0 0 0 40px;
+    margin-bottom: 15px;
+}
+
+#indicators-sidebar .index-cap {
+    background-color: #727272;
+    color: white;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .pillar-cap {
+    background-color: #9b9b9b;
+    color: white;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .subpillar-cap {
+    background-color: #c4c4c4;
+    color: white;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .index-title {
+    width: 404px;
+    background-color: white;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .pillar-title {
+    width: 366px;
+    background-color: white;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .subpillar-title {
+    width: 369px;
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 200ms;
+}
+
+#indicators-sidebar .indicator-toggle {
+    background-color: white;
+    border-radius: 0 4px 4px 0;
+}
+
+#indicators-sidebar .ui.menu .item:before {
+    display: none;
+}

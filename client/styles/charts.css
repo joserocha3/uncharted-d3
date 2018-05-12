@@ -1,0 +1,53 @@
+/*-------------------------------------------------------------------------*
+ * Object name:   charts.css
+ * Created by:    Pablo Rocha
+ * Creation date: ????
+ * Description:   Styles for charts, non rtl/ltr specific
+ *-------------------------------------------------------------------------*
+ * Modification history:
+ * Branch  Issue  Date        Developer    Description of change
+ * master  #10.1  06/17/2017  Pablo Rocha  - Remove X and X axis font sizes, those are now calculated in Axis.jsx
+ * master  #34.1  07/01/2017  Pablo Rocha  - Remove line key frames
+ *-------------------------------------------------------------------------*/
+
+svg {
+    background-color: white;
+    font-family: Roboto, 'Droid Arabic Kufi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+svg text {
+    font-family: Roboto, 'Droid Arabic Kufi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#chart-wrapper .line {
+    -webkit-transition: d 200ms;
+    -moz-transition: d 200ms;
+    -o-transition: d 200ms;
+    transition: d 200ms;
+}
+
+circle.dot {
+    -webkit-transition: cx 200ms, r 200ms;
+    -moz-transition: cx 200ms, r 200ms;
+    -o-transition: cx 200ms, r 200ms;
+    transition: cx 200ms, r 200ms;
+}
+
+g .tick line {
+    stroke: #ABABAB;
+    opacity: 0.7;
+    stroke-dasharray: 5 1;
+}
+
+.domain {
+    display: none;
+}
+
+.x-axis .domain {
+    stroke: #ABABAB;
+    display: block;
+}
+
+#chart-wrapper .line {
+    stroke-dasharray: 10, 3;
+}

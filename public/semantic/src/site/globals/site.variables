@@ -1,0 +1,20 @@
+/*-------------------------------------------------------------------------*
+ * Object name:   site.variables
+ * Created by:    Pablo Rocha
+ * Creation date: 07/12/2017
+ * Description:   Set new values to semantic-ui variables at the site level.
+ *-------------------------------------------------------------------------*
+ * Modification history:
+ * Branch  Issue  Date        Developer    Description of change
+ * master  #16    07/12/2017  Pablo Rocha  - Set @primaryColor to @teal
+ *-------------------------------------------------------------------------*/
+
+/*******************************
+     User Global Variables
+*******************************/
+
+@headerFont: 'Roboto', 'Droid Arabic Kufi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont: 'Roboto', 'Droid Arabic Kufi', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontName: 'Roboto';
+@teal: #00adc6;
+@primaryColor: @teal;

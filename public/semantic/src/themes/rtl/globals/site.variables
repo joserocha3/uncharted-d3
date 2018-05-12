@@ -1,0 +1,9 @@
+/*******************************
+         Site Settings
+*******************************/
+
+/* Kufi imported in site.overrides */
+@headerFont        : 'Droid Arabic Kufi', 'Roboto', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@pageFont          : 'Droid Arabic Kufi', 'Roboto', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+@googleFontName    : 'Droid Arabic Kufi';
+
