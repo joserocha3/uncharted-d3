@@ -8,10 +8,10 @@ export default class Logo extends React.Component {
 
         return (
             <a id='logo' href=''>
-                <span style={{fontWeight: 'bold'}}>K</span>
-                <span>nowledge</span>
-                <span style={{color: '#00adc6'}}>4</span>
-                <span style={{fontWeight: 'bold'}}>All</span> {admin ? ': Admin' : ''}
+                <span style={{fontWeight: 'bold'}}>u</span>
+                <span>charted</span>
+                <span style={{color: '#00adc6'}}>-</span>
+                <span style={{fontWeight: 'bold'}}>d3</span> {admin ? ': Admin' : ''}
             </a>
         )
 
