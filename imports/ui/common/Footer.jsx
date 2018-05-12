@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
                     <Grid.Row verticalAlign='middle'>
 
                         <Grid.Column>
-                            <TAP translate='all_rights_reserved'/>
+                            <TAP translate='footer'/>
                         </Grid.Column>
 
                         <Grid.Column>
