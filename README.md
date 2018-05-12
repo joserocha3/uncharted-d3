@@ -1,4 +1,4 @@
-# uncharted
+# uncharted-d3
 
 Web application using Meteor and D3. UI is done in React. All visualizations are made from scratch using D3, no prepackaged libraries were used. 
 
