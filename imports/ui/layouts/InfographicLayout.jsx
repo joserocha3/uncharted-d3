@@ -40,14 +40,6 @@ export default class InfographicLayout extends React.Component {
 
                 <Grid columns={1} padded textAlign='center'>
 
-                    <Grid.Column>
-                        <Header as='h1' color='grey'>Coming soon</Header>
-                    </Grid.Column>
-
-                    <Grid.Column>
-                        <Image centered shape='rounded' size='medium' src='/../images/infographic.png'/>
-                    </Grid.Column>
-
                 </Grid>
 
                 <div style={bigSponsorStyle}>
