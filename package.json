@@ -1,7 +1,7 @@
 {
   "name": "uncharted-d3",
   "version": "1.1.2",
-  "private": true,
+  "private": false,
   "description": "uncharted-d3",
   "main": "main.jsx",
   "repository": {
