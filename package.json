@@ -1,22 +1,20 @@
 {
-  "name": "uncharted",
+  "name": "uncharted-d3",
   "version": "1.1.2",
   "private": true,
-  "description": "United Nations visualizations for Arab Knowledge indexes",
+  "description": "uncharted-d3",
   "main": "main.jsx",
   "repository": {
     "type": "git",
-    "url": "git+https://joserocha3@github.com/joserocha3/uncharted.git"
+    "url": "git+https://joserocha3@github.com/joserocha3/uncharted-d3.git"
   },
   "author": "joserocha3",
   "bugs": {
-    "url": "https://github.com/joserocha3/uncharted/issues"
+    "url": "https://github.com/joserocha3/uncharted-d3/issues"
   },
-  "homepage": "https://github.com/joserocha3/uncharted#readme",
+  "homepage": "https://github.com/joserocha3/uncharted-d3#readme",
   "scripts": {
-    "start": "MONGO_URL=mongodb://pablo:pablo@ds157248.mlab.com:57248/uncharted-dev ROOT_URL=http://localhost:3030 meteor run --settings 'settings-development.json' --port 3030",
-    "staging": "MONGO_URL=mongodb://pablo:pablo@ds157248.mlab.com:57248/uncharted-staging ROOT_URL=http://localhost:3030 meteor run --settings 'settings-staging.json' --port 3030",
-    "deploy": "meteor deploy --settings 'settings-production.json' data.arabknowledgeportal.org"
+    "start": "meteor run --settings 'settings-development.json' --port 3030"
   },
   "dependencies": {
     "aws-sdk": "^2.70.0",
